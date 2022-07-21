@@ -1,0 +1,14 @@
+20220719 10:43:36 INFO  [main] example.TestLog4J TestLog4J.java13 - Error message
+20220719 10:43:36 WARN  [main] example.TestLog4J TestLog4J.java14 - This is a last warning
+20220719 10:43:36 FATAL [main] example.TestLog4J TestLog4J.java15 - The program seems to have exploded.
+20220719 10:43:36 DEBUG [main] example.TestLog4J TestLog4J.java21 - [Ljava.lang.StackTraceElement;@f627d13
+20220719 10:43:36 ERROR [main] example.TestLog4J TestLog4J.java22 - x.txt (The system cannot find the file specified)
+20220719 10:43:36 ERROR [main] example.TestLog4J TestLog4J.java23 - Catching
+java.io.FileNotFoundException: x.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at org.example.TestLog4J.logMessage(TestLog4J.java:19) [classes/:?]
+	at org.example.Main.main(Main.java:37) [classes/:?]
